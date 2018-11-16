@@ -7,10 +7,10 @@ rm(list=ls(all=TRUE))
 library(MASS)
 library(survival)
 library(cmprsk)
-setwd('~/Dropbox/Dissertation/bookchapter/program')
+#setwd('~/Dropbox/Dissertation/bookchapter/program')
 
 #load data
-source("~/Dropbox/Dissertation/bookchapter/program/bmt.R")
+source(".\\bmt.R")
 
 #Specify which group variable to test
 group=mini
